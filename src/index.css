@@ -1,0 +1,17 @@
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+}
+
+.product-cart{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px #000000;
+}
